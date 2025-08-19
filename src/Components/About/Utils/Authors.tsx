@@ -27,6 +27,18 @@ No article processing charges" />
                 </div>
                 <button className="bg-[#CAF8E3] p-2 italic  font-bold rounded-md my-2 mt-4">Learn More</button>
               </div>
+               <div className="relative w-[100%] p-7 px-10 my-3   rounded-lg border-2 border-[#047957] [box-shadow:0_4px_4px_0_rgba(0,0,0,0.25)] " style={{background:"linear-gradient(110deg, #1F2937 0%, #064E3B 100%)"}}>
+              
+          
+                <div className="space-y-2 rounded-md">
+                  <AuthorHeading bg="transparent" heading="Our Vision" text="#FFFFFF"/>
+                  <AuthorText desc="A future where scientific knowledge
+is openly accessible and serves the
+collective benefit of society" color='#FFFFFF'/>
+  <AuthorText desc="Cross-pollination of ideas
+driving innovation and solutions" color='#FFFFFF'/>
+                </div>
+              </div>
               </div>
               
   )
