@@ -2,4 +2,10 @@
 @theme {
   --font-arial: Arial, sans-serif;
   --font-georgia: Georgia, serif;
+
+}
+
+body{
+  background-color: #F0F9F4;
+  overflow-x: hidden;
 }

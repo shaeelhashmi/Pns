@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+
 import Nav from './Nav'
 export default function Top() {
   return (
@@ -6,7 +6,7 @@ export default function Top() {
     <div className="bg-[#2D3748] p-2 text-white text-center font-arial">
       <p>Synexis research Portal- Synergy of Sciences</p>
     </div>
-    <div className='grid grid-cols-1 md:grid-cols-2  place-content-center items-center justify-center m-5'>
+    <div className='grid grid-cols-1 md:grid-cols-2  place-content-center items-center justify-center m-5 ml-13'>
     <div>
         <p className='font-bold text-6xl my-2  font-georgia'>Synexis Journal</p>
         <p className='text-2xl italic font-georgia'> Journal of Research in Science and Engineering</p>

@@ -3,12 +3,13 @@ export default function Hero() {
   return (
     <div style={{ backgroundSize: 'cover',
     background:`linear-gradient(180deg, #2D3748 5.27%, #1A202C 100%)`
- }} className='w-screen my-2 p-2'>
-    <div className='w-full h-full bg-cover bg-center flex flex-wrap items-center justify-center p-4 space-y-2' style={{ backgroundImage: `url(${TransparentImg})` }}>
-      <div className='rounded-lg text-white  bg-[#6a6f7754] flex justify-center items-center p-4  mx-auto w-[650px] h-[320px]'>
+ }} className='w-full my-2 p-2 '>
+  <div className='ml-13'>
+    <div className='w-full h-full bg-cover bg-center flex flex-wrap justify-between   space-y-2 pr-4 py-3' style={{ backgroundImage: `url(${TransparentImg})` }}>
+      <div className='rounded-lg text-white  bg-[#6a6f7754] flex py-7 px-20 '>
         <div className='p-7 space-y-2 '>
         <span className='block font-georgia'>
-       <h3 className='text-3xl font-semibold'>The Synexis snapshot<span className='block'>Synergy of sciences</span></h3>
+       <h3 className='text-3xl  font-bold'>The Synexis snapshot<span className='block'>Synergy of sciences</span></h3>
        </span>
        <span className='block font-arial space-y-2 text-[#E2E8F0]'>
        <p className='text-lg'>Connecting diverse fields of knowledge through<span className='block'>interdisciplinary research and innovative solutions</span></p>
@@ -17,9 +18,9 @@ export default function Hero() {
         </span>
        </div>
       </div>
-      <div className='rounded-lg text-white  bg-[#6a6f7754] flex justify-center items-center p-4  mx-auto w-[550px] h-[270px]'>
+      <div className='rounded-lg text-white  bg-[#6a6f7754] flex justify-center items-center p-4  w-[550px] h-[270px]'>
         <div>
-            <h3 className='text-lg font-semibold font-arial text-center italic'>Research Categories</h3>
+            <h3 className='text-lg  font-bold font-arial text-center italic'>Research Categories</h3>
             <div className='grid grid-cols-2 gap-4 my-2'>
                 <div className='bg-[#2365ff54]  flex items-center justify-center flex-col rounded-lg w-[220px] h-[65px]'>
                       <p className='text-center font-bold text-base italic'>BioSciences</p>
@@ -37,7 +38,7 @@ export default function Hero() {
         </div>
       </div>                
     </div>
-      
+      </div>
     </div>
   )
 }
