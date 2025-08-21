@@ -4,15 +4,19 @@ import './App.css'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Routes, Route } from 'react-router-dom'
 import About from './Components/About/About'
+import SubmitArticleHero from './Components/SubmitArticle/Hero/SubmitArticleHero'
+import AboutHero from './Components/About/Hero/AboutHero'
+import SubmitArticle from './Components/SubmitArticle/SubmitArticle'
 function App() {
 
   return (
     <>
       <Router>
-        <Top /><Hero />
+        <Top />
         <Routes>
           <Route path="/" element={<></>} />
-          <Route path="/about" element={<div className='m-5  ml-13'><div className='w-full'><About /></div></div>} />
+          <Route path="/about" element={<><AboutHero/><div className='m-5  ml-13'><div className='w-full'><About /></div></div></>} />
+        <Route path='/submit-article' element={<><SubmitArticleHero/><div className='m-5  ml-13'><div className='w-full'><SubmitArticle /></div></div></>} />
         </Routes>
       </Router>
     </>

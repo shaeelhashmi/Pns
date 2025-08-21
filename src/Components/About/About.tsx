@@ -1,4 +1,4 @@
-import Heading from "./Utils/Text/Heading"
+import Heading from "../Utils/Text/Heading"
 import Mission from "./Utils/Mission"
 import AboutUs from "./Utils/AboutUs"
 import Scope from "./Utils/Scope"

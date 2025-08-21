@@ -1,5 +1,5 @@
-import SubHeading from "./Text/SubHeading"
-import Subtext from "./Text/Subtext"
+import SubHeading from "../../Utils/Text/SubHeading"
+import Subtext from "../../Utils/Text/Subtext"
 export default function Scope() {
   return (
     <>
