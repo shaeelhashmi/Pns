@@ -3,7 +3,7 @@ import Subtext from "../../Utils/Text/Subtext"
 import Box from "../../Utils/Text/Box/Box"
 export default function AboutUs() {
   return (
-    <div className="grid grid-cols-2 gap-10">
+    <div className="grid md:grid-cols-2 gap-10">
       <Box >
 <div className="space-y-2">
                 <SubHeading subheading="The Etymology" />

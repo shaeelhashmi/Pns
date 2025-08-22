@@ -10,7 +10,7 @@ export default function Advisory() {
   ]
 
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
+    <div className="grid xl:grid-cols-2 grid-cols-1 gap-10">
       {data.map((item, idx) => {
         const isLast = idx === data.length - 1
 
@@ -22,7 +22,7 @@ export default function Advisory() {
             Title={item.Title}
             Affiliation={item.Affiliation}
             className={
-              isLast  ? 'md:col-start-1 md:col-end-3 justify-self-center ' : ''
+              isLast  ? 'xl:col-start-1 xl:col-end-3 justify-self-center ' : ''
             }
           />
         )
