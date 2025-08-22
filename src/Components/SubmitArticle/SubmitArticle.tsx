@@ -34,10 +34,10 @@ export default function SubmitArticle() {
               <PublicationEthics/>
         </div>
          <div className="my-7 space-y-10">
-              <Heading heading="Quick Refrence Guides" />
+              <Heading heading="Quick Refrence Guides" size='1.75rem' />
               <QuickRefrence/>
         </div>
-          <div className="my-7 space-y-10">
+          <div className="my-7 space-y-10 ">
 
               <a href='https://synexisjournal.com/online/index.php/synexis/submission' target='_blank' className=' w-[330px] h-[40px] flex justify-between items-center text-lg font-bold italic gap-4 bg-[#38A169] p-2 rounded-3xl mx-auto border-6 border-[#2f855a] text-white'>
                 <div className='w-3 h-3 bg-[#1E56B6] rounded-full'></div>

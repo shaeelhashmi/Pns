@@ -12,7 +12,7 @@ interface props{
 export default function AdvisoryBox(props:props) {
   return (
     <>
-       <Box  width='46vw' className={`${props.colSpan?"col-span-"+props.colSpan:""} ${props.className}`}>
+       <Box   className={`xl:w-[46vw] w-full ${props.colSpan?"col-span-"+props.colSpan:""} ${props.className}`}>
 <div className="space-y-2 grid grid-cols-[auto_1fr] place-content-center gap-11">
                 <div className=' flex items-center'>
                     <div className='rounded-full border-2 border-[#047857] w-fit p-3'>

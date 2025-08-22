@@ -10,10 +10,9 @@ export default function Advisory() {
   ]
 
   return (
-    <div className="grid grid-cols-2 gap-10 place-content-center">
+    <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
       {data.map((item, idx) => {
         const isLast = idx === data.length - 1
-        const isOdd = data.length % 2 !== 0
 
         return (
           <AdvisoryBox
@@ -23,7 +22,7 @@ export default function Advisory() {
             Title={item.Title}
             Affiliation={item.Affiliation}
             className={
-              isLast && isOdd ? 'col-start-1 col-end-3 justify-self-center' : ''
+              isLast  ? 'md:col-start-1 md:col-end-3 justify-self-center ' : ''
             }
           />
         )

@@ -27,11 +27,7 @@ export default function QuickRefrence() {
                   </ul>
                  
               </div>
-               <div className="bg-[#FDF4F4]  px-4 py-2">
-                      <p className="text-[#DC2626] font-arial text-[0.95rem] bold italic  font-bold">Important Notice:</p>
-                      <p className="ml-30 text-[#4A5568] text-[0.95rem] ">If any author does not provide approval for
-      submission, the manuscript will be rejected.</p>
-                  </div>
+
               </div>
                </div>
       

@@ -6,7 +6,7 @@ interface props{
 }
 export default function HeroLeftBox({heading, content, subContent, ButtonText}:props) {
   return (
-     <div className='rounded-lg text-white  bg-[#6a6f7754] flex py-7 px-20 w-[650px]'>
+     <div className='rounded-lg text-white  bg-[#6a6f7754] flex py-7 px-20 xl:w-[650px] w-full'>
         <div className='p-7 space-y-2 '>
         <span className='block font-georgia'>
        <h3 className='text-3xl  font-bold'>{heading}</h3>
