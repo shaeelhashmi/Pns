@@ -12,7 +12,8 @@ interface props{
 export default function AdvisoryBox(props:props) {
   return (
     <>
-       <Box Boxes={<div className="space-y-2 grid grid-cols-[auto_1fr] place-content-center gap-11">
+       <Box  width='46vw' className={`${props.colSpan?"col-span-"+props.colSpan:""} ${props.className}`}>
+<div className="space-y-2 grid grid-cols-[auto_1fr] place-content-center gap-11">
                 <div className=' flex items-center'>
                     <div className='rounded-full border-2 border-[#047857] w-fit p-3'>
                         <p className='font-arial text-base italic font-bold '>{props.Abbrev}</p>
@@ -26,7 +27,9 @@ export default function AdvisoryBox(props:props) {
     <div className='col-start-2'>
     <button className='bg-[#d5ffe8] text-black font-arial font-bold italic py-2 px-4 rounded-lg text-[0.94rem]'>View Profile →</button>
     </div>
-                </div>} width='46vw' className={`${props.colSpan?"col-span-"+props.colSpan:""} ${props.className}`}></Box>
+                </div>
+
+       </Box>
 
 </>
   )

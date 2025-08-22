@@ -4,8 +4,8 @@ import Box from "../../Utils/Text/Box/Box"
 export default function Journal() {
   return (
         <>
-        <Box Boxes={
-          <>
+        <Box >
+                  <>
                <div className="space-y-2 ">
                     <div className="inline  "><svg className="inline mr-5 -top-1 relative" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="10" cy="10" r="10" fill="#10B981"/>
@@ -16,7 +16,7 @@ export default function Journal() {
 from all scientific disciplines to contribute to this exciting new platform for interdisciplinary research." size="text-lg" color="#4A5568"/>
                     </div>
           </>
-        }/>
+          </Box>
 
     </>
   )

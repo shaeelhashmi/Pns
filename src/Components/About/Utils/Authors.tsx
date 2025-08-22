@@ -4,8 +4,8 @@ import AuthorText from "./Text/AuthorText"
 export default function Authors() {
   return (
     <div className="grid grid-cols-3 gap-10">
-      <Box Boxes={
-        <>
+      <Box >
+         <>
           <div className="space-y-2 rounded-md">
                   <AuthorHeading bg="#D3E3FF" heading="ManuScript Submission" text="#1E3A8A"/>
                   <AuthorText desc="Submit in the format provided on our website
@@ -14,9 +14,9 @@ Fast-track peer review process available." />
                 </div>
                 <button className="bg-[#D3E3FF] p-2 italic  font-bold rounded-md my-2 mt-4">Submit ManuScript</button>
               </>
-      } />
-      <Box Boxes={
-        <>
+      </Box>
+      <Box >
+            <>
                <div className="space-y-2 rounded-md">
                   <AuthorHeading bg="#CAF8E3" heading="Open Access" text="#064E3B"/>
                   <AuthorText desc="Freely accessible to all readers worldwide
@@ -25,7 +25,7 @@ No article processing charges" />
                 </div>
                 <button className="bg-[#CAF8E3] p-2 italic  font-bold rounded-md my-2 mt-4">Learn More</button>
         </>
-      }/>
+      </Box>
                <div className="relative w-[100%] p-7 px-10 my-3   rounded-lg border-2 border-[#047957] [box-shadow:0_4px_4px_0_rgba(0,0,0,0.25)] " style={{background:"linear-gradient(110deg, #1F2937 0%, #064E3B 100%)"}}>
           
                 <div className="space-y-2 rounded-md">

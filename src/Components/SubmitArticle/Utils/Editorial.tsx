@@ -5,9 +5,7 @@ import EmojiCircle from "./Box/EmojiCircle"
 export default function Editorial() {
   return (
     <div className="grid grid-cols-2 gap-10">
-    <Box className="col-span-2" Boxes={
-        
-       
+    <Box className="col-span-2">
             <div className="grid grid-cols-[auto_1fr]">
                 <div>
                     <EmojiCircle emoji="✍️" />
@@ -32,11 +30,11 @@ export default function Editorial() {
         
         </div>
         
-    }></Box>
-    <Box Boxes={
-        <div className="grid grid-cols-[auto_1fr] ">
+    </Box>
+    <Box>
+           <div className="grid grid-cols-[auto_1fr] ">
     <div>
-        <EmojiCircle emoji="⭐"/>
+        <EmojiCircle emoji="⭐" bgClass="bg-[#DCC4FC]"/>
         </div>
         <div className="space-y-2">
         <div>
@@ -58,12 +56,13 @@ export default function Editorial() {
         </div>
         </div>
         </div>
-    }></Box>
-    <Box Boxes={
-    
+
+    </Box>
+    <Box >
+            
         <div className="grid grid-cols-[auto_1fr] ">
     <div>
-        <EmojiCircle emoji="⚠️"/>
+        <EmojiCircle emoji="⚠️" bgClass="bg-[#F8D4D4]"/>
 </div>
         <div className="space-y-2">
             <div>
@@ -88,7 +87,7 @@ submission, the manuscript will be rejected.</p>
         </div>
          </div>
 
-    }></Box>
+    </Box>
     </div>
 
   )

@@ -1,8 +1,17 @@
-
-export default function SubHeading(props:{subheading:string, className?:string,size?:string,color?:string} ) {
+export default function SubHeading(props: {
+  subheading: string
+  className?: string
+  size?: string
+  color?: string
+}) {
   return (
-     <h4 className={`text-${props.size ? props.size : '2xl'} text-${props.color ? props.color : '#047957'} font-georgia font-bold ${props.className? props.className : ''}`} >
-        {props.subheading}
-      </h4>
+    <h2
+      className={`font-georgia font-bold ${props.className || ""} ${
+        props.size ? `text-${props.size}` : "text-2xl"
+      }`}
+      style={{ color: props.color || "#047957" }} // ✅ inline style for dynamic color
+    >
+      {props.subheading}
+    </h2>
   )
 }

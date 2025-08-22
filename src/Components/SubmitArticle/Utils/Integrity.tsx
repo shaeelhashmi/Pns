@@ -5,10 +5,10 @@ import Subtext from "../../Utils/Text/Subtext"
 export default function Integrity() {
   return (
     <div className="grid grid-cols-2 gap-10">
-      <Box Boxes={
-        <div className="grid grid-cols-[auto_1fr]">
+      <Box className="col-span-2">
+                <div className="grid grid-cols-[auto_1fr]">
           <div>
-            <EmojiCircle emoji="✍️" />
+            <EmojiCircle emoji="✍️"  bgClass="bg-[#F8D4D4]"/>
           </div>
           <div className="space-y-2">
             <div>
@@ -30,14 +30,11 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
             </div>
           </div>
         </div>
-      } className="col-span-2">
-   
       </Box>
-      <Box
-      Boxes={
-      <div className="grid grid-cols-[auto_1fr]">
+      <Box>
+        <div className="grid grid-cols-[auto_1fr]">
         <div>
-            <EmojiCircle emoji="🤖" />
+            <EmojiCircle emoji="🤖" bgClass="bg-[#FCE2B6]"/>
         </div>
         <div className="space-y-2">
             <div>
@@ -66,11 +63,10 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
                 <p className="text-[#6B7280] font-arial font-bold italic text-[0.95rem]"> Policies subject to revision based on copyright law developments</p>
             </div>
         </div>
-      </div>}
-      ></Box>
-      <Box
-      Boxes={
-        <div className="grid grid-cols-[auto_1fr]">
+      </div>
+      </Box>
+      <Box>
+         <div className="grid grid-cols-[auto_1fr]">
             <div>
             <EmojiCircle emoji="📊" />
             </div>
@@ -94,7 +90,7 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
             </div>
             </div>
         </div>
-      }></Box>
+      </Box>
     </div>
   )
 }

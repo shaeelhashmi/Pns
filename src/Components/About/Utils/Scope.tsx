@@ -4,8 +4,8 @@ import Box from "../../Utils/Text/Box/Box"
 export default function Scope() {
   return (
     <>
-    <Box Boxes={
-      <>
+    <Box>
+            <>
       
           <div className="space-y-2">
             <SubHeading subheading="Research Categories and Submission Types" />
@@ -23,7 +23,7 @@ knowledge that shapes the future of technology, society, and the natural world.
           <div className="my-2 text-2xl  font-bold italic font-arial p-1 px-4 rounded-md text-white" style={{background:"linear-gradient(95deg, #1F2937 0%, #064E3B 100%)"}}> Engineering</div>
         </div>
       </>
-    }></Box>
+    </Box>
 
        
         </>

@@ -4,7 +4,8 @@ import Box from "../../Utils/Text/Box/Box"
 export default function AboutUs() {
   return (
     <div className="grid grid-cols-2 gap-10">
-      <Box Boxes={[<div className="space-y-2">
+      <Box >
+<div className="space-y-2">
                 <SubHeading subheading="The Etymology" />
                 <Subtext description='The word "synexis" is derived from the Greek σύνεξις
 (Synexis), which implies connection, union, or coming
@@ -13,8 +14,11 @@ journal that seeks to integrate diverse fields of knowledge.
 A quarterly, peer-reviewed, open-access publication
 dedicated to sharing significant advances in basic
 sciences, engineering, and allied disciplines.' size="text-lg"  color="#4A5568"/>
-              </div>,]}/>
-      <Box Boxes={[     <div className="space-y-2 ">
+              </div>,
+
+      </Box>
+      <Box>
+            <div className="space-y-2 ">
                 <SubHeading subheading="Published by Pakistan Nuclear Society" />
                 <Subtext description="The Pakistan Nuclear Society (PNS) is a non-governmental,
 non-profit scientific organization established in 1990 and
@@ -23,7 +27,8 @@ registered under the Societies Registration Act of 1860.
 PNS serves as a platform for professionals to promote
 public understanding and encourage youth engagement
 in various areas of scientific research." size="text-lg" color="#4A5568"/>
-              </div>]}/>
+              </div>
+      </Box>
       
     </div>
   )
