@@ -1,5 +1,5 @@
 import Top from './Components/Header/Navbar/Top'
-import Hero from './Components/Header/Hero/Hero'
+
 import './App.css'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Routes, Route } from 'react-router-dom'
