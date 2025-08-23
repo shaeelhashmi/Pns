@@ -4,8 +4,8 @@ import SubHeading from "../../Utils/Text/SubHeading"
 import Subtext from "../../Utils/Text/Subtext"
 export default function Integrity() {
   return (
-    <div className="grid grid-cols-2 gap-10">
-      <Box className="col-span-2">
+    <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
+      <Box className="lg:col-span-2">
                 <div className="grid grid-cols-[auto_1fr]">
           <div>
             <EmojiCircle emoji="✍️"  bgClass="bg-[#F8D4D4]"/>
@@ -21,7 +21,7 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
             <div>
                 <Subtext description="Detection & investigation" color="#DC2626" className="font-bold italic" size="text-lg" ></Subtext>
             <div></div>
-            <div className="ml-5">
+            <div className="xl:ml-5 lg:ml-3 ml-1">
                 <ul>
                     <li><Subtext description="• Authors are responsible for accuracy and integrity of their contributions" size="text-lg"  color="#374151"/></li>
                     <li><Subtext description="• All listed authors must review and approve the final manuscript" size="text-lg"  color="#374151"/></li>
@@ -51,7 +51,7 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
             <div>
                 <Subtext description="Exceptions:" size="text-lg"  color="#047857" className="font-bold italic"/>
             </div>
-            <div className="ml-5">
+            <div className="xl:ml-5 lg:ml-3 ml-1">
                 <ul>
                     <li><Subtext description="• Manuscripts focusing on AI/ML research" size="text-lg"  color="#374151"/></li>
                     <li><Subtext description="• Must be disclosed at time of submission" size="text-lg"  color="#374151"/></li>
@@ -60,7 +60,7 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
                 </ul>
             </div>
             <div>
-                <p className="text-[#6B7280] font-arial font-bold italic text-[0.95rem]"> Policies subject to revision based on copyright law developments</p>
+                <p className="text-[#6B7280] font-arial font-bold italic text-[0.8rem] md:text-[0.95rem]"> Policies subject to revision based on copyright law developments</p>
             </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
                 <Subtext description="All images included in manuscripts must:" size="text-lg"  color="#374151"/>
             </div>
             <div>
-                <ul className="ml-5">
+                <ul className="xl:ml-5 lg:ml-3 ml-1">
                     <li><Subtext description="✓ Accurately represent the original data" size="text-lg"  color="#374151"/></li>
                     <li><Subtext description="✓ Be of high quality and resolution" size="text-lg"  color="#374151"/></li>
                     <li><Subtext description="✓ Include proper attribution if from external sources" size="text-lg"  color="#374151"/></li>
@@ -86,7 +86,7 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
                 </ul>
             </div>
             <div className="border-[0.5px] border-[#10B981] bg-[#E7F8F2] py-1 rounded-md mt-20">
-                <p className="text-[0.95rem] text-[#047857] font-bold italic font-arial text-center">No manipulation beyond standard enhancement</p>
+                <p className="md:text-[0.95rem] text-[0.8rem] text-[#047857] font-bold italic font-arial text-center">No manipulation beyond standard enhancement</p>
             </div>
             </div>
         </div>

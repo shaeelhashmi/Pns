@@ -43,7 +43,7 @@ export default function SubmitArticle() {
         </div>
           <div className="my-7 space-y-10 ">
 
-              <a href='https://synexisjournal.com/online/index.php/synexis/submission' target='_blank' className=' w-[330px] h-[40px] flex justify-between items-center text-lg font-bold italic gap-4 bg-[#38A169] p-2 rounded-3xl mx-auto border-6 border-[#2f855a] text-white'>
+              <a href='https://synexisjournal.com/online/index.php/synexis/submission' target='_blank' className=' md:w-[330px] w-[280px] h-[40px] flex justify-between items-center md:text-lg text-base font-bold italic md:gap-2 bg-[#38A169] p-2 rounded-3xl mx-auto border-6 border-[#2f855a] text-white'>
                 <div className='w-3 h-3 bg-[#1E56B6] rounded-full'></div>
                <div>Submit your article today</div> 
                  <div className='w-3 h-3 bg-[#1E56B6] rounded-full'></div></a>

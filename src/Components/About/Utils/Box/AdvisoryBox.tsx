@@ -16,12 +16,12 @@ export default function AdvisoryBox(props:props) {
 <div className="space-y-2 grid grid-cols-[auto_1fr] place-content-center gap-11">
                 <div className=' flex items-center'>
                     <div className='rounded-full border-2 border-[#047857] w-fit p-3'>
-                        <p className='font-arial md:text-base text-sm italic font-bold '>{props.Abbrev}</p>
+                        <p className='font-arial md:text-base text-[0.95rem] italic font-bold '>{props.Abbrev}</p>
                     </div>
                 </div>
                     <div className=' space-y-2'>
                         <SubHeading subheading={props.Name} size='[1.4rem]' className='sm:text-[1.15rem] text-[1.07rem]'/>
-                        <p className='md:text-lg sm:text-base text-sm italic font-bold font-arial'>{props.Title}</p>
+                        <p className='md:text-lg sm:text-base text-[0.95rem] italic font-bold font-arial'>{props.Title}</p>
                          <Subtext description={props.Affiliation} size="text-[0.94rem]" className='text-xs' color="#4A5568"/>
                   </div>
     <div className='col-start-2'>

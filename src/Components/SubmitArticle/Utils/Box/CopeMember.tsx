@@ -7,9 +7,9 @@ export default function CopeMember(props:{emoji:string, name:string, role:string
                             <EmojiCircle emoji={props.emoji} textSize="text-sm" colorClass="text-[#047857]" sizeClass="w-10 h-10" className="font-bold italic"/>
                             </div>  
                             <div>
-                                <p className="text-[#064E3B] text-base font-bold italic">{props.name}</p>
-                                <p className="text-[#374151] text-sm">{props.role}</p>
-                                <p className="text-[#6B7280] text-[0.8rem]">{props.subrole}</p>
+                                <p className="text-[#064E3B] md:text-base text-[0.95rem] font-bold italic">{props.name}</p>
+                                <p className="text-[#374151] md:text-sm text-[0.8rem]">{props.role}</p>
+                                <p className="text-[#6B7280] md:text-[0.8rem] text-xs">{props.subrole}</p>
 
                              </div>
                              </div>

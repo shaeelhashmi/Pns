@@ -4,7 +4,7 @@ export default function Top() {
   return (
     <nav className=''>
     <div className="bg-[#2D3748] p-2 text-white text-center font-arial">
-      <p>Synexis research Portal- Synergy of Sciences</p>
+      <p className='md:text-base text-sm'>Synexis research Portal- Synergy of Sciences</p>
     </div>
     <div className='grid grid-cols-1 lg:grid-cols-2  place-content-center items-center justify-center m-5 md:mx-13 mx-3  gap-5'>
     <div>

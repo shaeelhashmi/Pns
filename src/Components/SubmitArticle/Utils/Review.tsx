@@ -4,8 +4,8 @@ import SubHeading from "../../Utils/Text/SubHeading"
 import Subtext from "../../Utils/Text/Subtext"
 export default function Review() {
   return (
-    <div className="grid grid-cols-3 gap-10">
-        <Box className="col-span-3">
+    <div className="grid xl:grid-cols-3 lg:grid-cols-2 gap-10">
+        <Box className="xl:col-span-3 lg:col-span-2 col-span-1">
           <div className="grid grid-cols-[auto_1fr]">
         <div>
              <EmojiCircle emoji="✍️" bgClass="bg-[#C4DAFC]"/>
@@ -17,7 +17,7 @@ export default function Review() {
               <SubHeading subheading="Multi-stage editorial process"  color="#064E3B" />
             </div>
             <div>
-                <Subtext description="Synexis employs a rigorous multi-stage editorial screening and assessment process:"  className="text-lg"></Subtext>
+                <Subtext description="Synexis employs a rigorous multi-stage editorial screening and assessment process:"  size="text-lg"></Subtext>
             </div>
             <div>
                 <ul className="list-none">
@@ -28,7 +28,7 @@ export default function Review() {
           </div>
                     </div>
         </Box>
-      <Box>
+      <Box className="lg:col-span-2 xl:col-span-1 col-span-1">
   
             < >
               <div className="grid grid-cols-[auto_1fr]">
@@ -93,14 +93,14 @@ reviewer comments"  size="text-lg" color="#374151"/>
               <div>
                 <Subtext description="Research must comply with
 internationally accepted standards
-for research practice and reporting"  className="text-lg"></Subtext>
+for research practice and reporting"  size="text-lg"></Subtext>
               </div>
               <div>
                 <SubHeading subheading="Post-Publication Issues:" size="lg" color="#047857" className="italic"></SubHeading>
               </div>
               <div>
                 <Subtext description="Addressed per COPE guidelines may result in correction,
-retraction, or expression of concern"  className="text-lg"></Subtext>
+retraction, or expression of concern"  size="text-lg"></Subtext>
               </div>
             </div>
         </div>
@@ -117,7 +117,7 @@ retraction, or expression of concern"  className="text-lg"></Subtext>
             <div>
               <Subtext description="Accepted manuscripts are
 published on the journal website
-for immediate access"  className="text-lg"></Subtext>
+for immediate access"  size="text-lg"></Subtext>
             </div>
             <div>
               <SubHeading subheading="Institutional Contact:" size="lg" color="#047857" />
@@ -125,7 +125,7 @@ for immediate access"  className="text-lg"></Subtext>
             <div>
               <Subtext description="Authors' institutions contacted
 when appropriate for
-ethical or policy matters"  className="text-lg"></Subtext>
+ethical or policy matters"  size="text-lg"></Subtext>
             </div>
 
           </div>

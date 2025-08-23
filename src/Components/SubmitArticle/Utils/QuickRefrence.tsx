@@ -4,7 +4,7 @@ import SubHeading from "../../Utils/Text/SubHeading"
 import Subtext from "../../Utils/Text/Subtext"
 export default function QuickRefrence() {
   return (
-    <div className='grid grid-cols-2 gap-10'>
+    <div className='grid lg:grid-cols-2 grid-cols-1 gap-10'>
           <Box >
                   
               <div className="grid grid-cols-[auto_1fr] ">
@@ -17,7 +17,7 @@ export default function QuickRefrence() {
               </div>
              
               <div className="">
-                  <ul className="list-none ml-5">
+                  <ul className="list-none xl:ml-5 lg:ml-3 ml-1">
                       <li> <Subtext description="✔ Manuscript written in English" size="text-lg"  className="inline"/></li>
                       <li> <Subtext description="✔ All authors have approved final version" size="text-lg"  className="inline"/></li>
                       <li> <Subtext description="✔ Conflicts of interest disclosed" size="text-lg"  className="inline"/></li>
@@ -44,7 +44,7 @@ export default function QuickRefrence() {
               </div>
              
               <div className="">
-                  <ul className="list-none ml-5">
+                  <ul className="list-none xl:ml-5 lg:ml-3 ml-1">
                       <li> <Subtext description="• AI-generated images require prior approval" size="text-lg"  className="inline"/></li>
                       <li> <Subtext description="• Any authorship changes need written approval" size="text-lg"  className="inline"/></li>
                       <li> <Subtext description="• Post-publication issues follow COPE guidelines" size="text-lg"  className="inline"/></li>
