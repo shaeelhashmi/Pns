@@ -16,13 +16,13 @@ export default function Editorial() {
     </div>
         <div>
           <ul className="list-none ml-5">
-            <li> <Subtext description="• Manuscripts must be written in English" size="text-lg" font="arial"/></li>
-            <li> <Subtext description="• Each author must have made significant contributions to the work" size="text-lg" font="arial"/></li>
-            <li> <Subtext description="• Authors are responsible for accuracy and integrity of their contributions" size="text-lg" font="arial"/></li>
-            <li> <Subtext description="• All listed authors must review and approve the final manuscript" size="text-lg" font="arial"/></li>
-            <li> <Subtext description="• Corresponding author verifies compliance with transparency standards" size="text-lg" font="arial"/></li>
-            <li> <Subtext description="• All authors receive email confirmation request upon submission" size="text-lg" font="arial"/></li>
-            <li> <Subtext description="• Contributors not meeting authorship criteria should be acknowledged separately" size="text-lg" font="arial"/></li>
+            <li> <Subtext description="• Manuscripts must be written in English" size="text-lg" /></li>
+            <li> <Subtext description="• Each author must have made significant contributions to the work" size="text-lg" /></li>
+            <li> <Subtext description="• Authors are responsible for accuracy and integrity of their contributions" size="text-lg" /></li>
+            <li> <Subtext description="• All listed authors must review and approve the final manuscript" size="text-lg" /></li>
+            <li> <Subtext description="• Corresponding author verifies compliance with transparency standards" size="text-lg" /></li>
+            <li> <Subtext description="• All authors receive email confirmation request upon submission" size="text-lg" /></li>
+            <li> <Subtext description="• Contributors not meeting authorship criteria should be acknowledged separately" size="text-lg" /></li>
           </ul>
           </div>
          <p className="font-arial font-bold italic text-2xl">⚠️ Changes to authorship require written approval from all original authors</p>
@@ -43,12 +43,12 @@ export default function Editorial() {
         
         <div>
             <ul className="list-none ml-5">
-                <li> <Subtext description="✓ Ensure all authors review and approve final manuscript" size="text-lg" font="arial"/></li>
-                <li> <Subtext description="✓ Include email addresses with affiliations" size="text-lg" font="arial"/></li>
-                <li> <Subtext description="✓ Receive all journal correspondence" size="text-lg" font="arial"/></li>
-                <li> <Subtext description="✓ Verify data, materials, and code standards" size="text-lg" font="arial"/></li>
-                <li><Subtext description="✓ Ensure group compliance with best practices" size="text-lg" font="arial"/></li>
-                <li><Subtext description="✓ Facilitate communication among authors" size="text-lg" font="arial"/></li>
+                <li> <Subtext description="✓ Ensure all authors review and approve final manuscript" size="text-lg" /></li>
+                <li> <Subtext description="✓ Include email addresses with affiliations" size="text-lg" /></li>
+                <li> <Subtext description="✓ Receive all journal correspondence" size="text-lg" /></li>
+                <li> <Subtext description="✓ Verify data, materials, and code standards" size="text-lg" /></li>
+                <li><Subtext description="✓ Ensure group compliance with best practices" size="text-lg" /></li>
+                <li><Subtext description="✓ Facilitate communication among authors" size="text-lg" /></li>
             </ul>
         </div>
         <div>
@@ -70,11 +70,11 @@ export default function Editorial() {
         </div>
        
         <div className="">
-            <Subtext description="Any changes to authorship will require" className="inline"size="text-lg" font="arial"/>
+            <Subtext description="Any changes to authorship will require" className="inline"size="text-lg" />
             <ul className="list-none ml-5">
-                <li> <Subtext description=" • Written approval from ALL originally listed authors" size="text-lg" font="arial"/></li>
-                <li> <Subtext description=" • Addition or removal of authors"size="text-lg"  font="arial"/></li>
-                <li> <Subtext description=" • Changes to author order"size="text-lg"  font="arial"/></li>
+                <li> <Subtext description=" • Written approval from ALL originally listed authors" size="text-lg" /></li>
+                <li> <Subtext description=" • Addition or removal of authors"size="text-lg"  /></li>
+                <li> <Subtext description=" • Changes to author order"size="text-lg"  /></li>
 
             </ul>
            

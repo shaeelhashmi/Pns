@@ -13,7 +13,7 @@ together. It is a suitable title for an interdisciplinary
 journal that seeks to integrate diverse fields of knowledge.
 A quarterly, peer-reviewed, open-access publication
 dedicated to sharing significant advances in basic
-sciences, engineering, and allied disciplines.' size="text-lg"  color="#4A5568"/>
+sciences, engineering, and allied disciplines.' size="text-lg" className="text-base" color="#4A5568" />
               </div>,
 
       </Box>
@@ -26,7 +26,7 @@ registered under the Societies Registration Act of 1860.
 registered under the Societies Registration Act of 1860.
 PNS serves as a platform for professionals to promote
 public understanding and encourage youth engagement
-in various areas of scientific research." size="text-lg" color="#4A5568"/>
+in various areas of scientific research." size="text-lg" className="text-base"  color="#4A5568"/>
               </div>
       </Box>
       

@@ -17,7 +17,7 @@ export default function PublicationEthics() {
                   <SubHeading subheading="Committee on Publication Ethics (COPE)"  color="#064E3B" />
                 </div>
                 <div>
-                    <Subtext description='The committee meets (in person or online) whenever a case is referred for scrutiny.' font="arial" className="text-lg"></Subtext>
+                    <Subtext description='The committee meets (in person or online) whenever a case is referred for scrutiny.'  className="text-lg"></Subtext>
                 </div>
              <div className="grid grid-cols-4 gap-15 pr-5">
                 <CopeMember emoji="JA" name="Javed Akhtar" role="Committee Member" subrole="Ethics Specialist"/>

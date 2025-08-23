@@ -19,12 +19,12 @@ export default function Integrity() {
 of another's work. This includes both external plagiarism and self-plagiarism." size="text-lg" />
             </div>
             <div>
-                <Subtext description="Detection & investigation" color="#DC2626" className="font-bold italic" size="text-lg" font="arial"></Subtext>
+                <Subtext description="Detection & investigation" color="#DC2626" className="font-bold italic" size="text-lg" ></Subtext>
             <div></div>
             <div className="ml-5">
                 <ul>
-                    <li><Subtext description="• Authors are responsible for accuracy and integrity of their contributions" size="text-lg" font="arial" color="#374151"/></li>
-                    <li><Subtext description="• All listed authors must review and approve the final manuscript" size="text-lg" font="arial" color="#374151"/></li>
+                    <li><Subtext description="• Authors are responsible for accuracy and integrity of their contributions" size="text-lg"  color="#374151"/></li>
+                    <li><Subtext description="• All listed authors must review and approve the final manuscript" size="text-lg"  color="#374151"/></li>
                 </ul>
             </div>
             </div>
@@ -41,21 +41,21 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
                 <SubHeading subheading="AI-Generated Content"  color="#064E3B"  />
             </div>
             <div>
-                <Subtext description="Multimedia & Images" color="#D97706" font="arial" size="text-lg" className="font-bold italic"/>
+                <Subtext description="Multimedia & Images" color="#D97706"  size="text-lg" className="font-bold italic"/>
             </div>
             <div>
-                <Subtext description="AI-generated images and multimedia are " size="text-lg" font="arial" color="#374151" className="inline"/>
-                <Subtext description="NOT PERMITTED " size="text-lg" font="arial" className="inline font-bold italic" color="#DC2626"/>
-                <Subtext description="without explicit prior approval" size="text-lg" font="arial" color="#374151" className="inline"/>
+                <Subtext description="AI-generated images and multimedia are " size="text-lg"  color="#374151" className="inline"/>
+                <Subtext description="NOT PERMITTED " size="text-lg"  className="inline font-bold italic" color="#DC2626"/>
+                <Subtext description="without explicit prior approval" size="text-lg"  color="#374151" className="inline"/>
             </div>
             <div>
-                <Subtext description="Exceptions:" size="text-lg" font="arial" color="#047857" className="font-bold italic"/>
+                <Subtext description="Exceptions:" size="text-lg"  color="#047857" className="font-bold italic"/>
             </div>
             <div className="ml-5">
                 <ul>
-                    <li><Subtext description="• Manuscripts focusing on AI/ML research" size="text-lg" font="arial" color="#374151"/></li>
-                    <li><Subtext description="• Must be disclosed at time of submission" size="text-lg" font="arial" color="#374151"/></li>
-                    <li><Subtext description="• Considered case-by-case basis" size="text-lg" font="arial" color="#374151"/></li>
+                    <li><Subtext description="• Manuscripts focusing on AI/ML research" size="text-lg"  color="#374151"/></li>
+                    <li><Subtext description="• Must be disclosed at time of submission" size="text-lg"  color="#374151"/></li>
+                    <li><Subtext description="• Considered case-by-case basis" size="text-lg"  color="#374151"/></li>
 
                 </ul>
             </div>
@@ -75,14 +75,14 @@ of another's work. This includes both external plagiarism and self-plagiarism." 
                 <SubHeading subheading="Image Requirements"  color="#064E3B"  />
             </div>
             <div>
-                <Subtext description="All images included in manuscripts must:" size="text-lg" font="arial" color="#374151"/>
+                <Subtext description="All images included in manuscripts must:" size="text-lg"  color="#374151"/>
             </div>
             <div>
                 <ul className="ml-5">
-                    <li><Subtext description="✓ Accurately represent the original data" size="text-lg" font="arial" color="#374151"/></li>
-                    <li><Subtext description="✓ Be of high quality and resolution" size="text-lg" font="arial" color="#374151"/></li>
-                    <li><Subtext description="✓ Include proper attribution if from external sources" size="text-lg" font="arial" color="#374151"/></li>
-                    <li><Subtext description="✓ Follow ethical guidelines for data presentation" size="text-lg" font="arial" color="#374151"/></li>
+                    <li><Subtext description="✓ Accurately represent the original data" size="text-lg"  color="#374151"/></li>
+                    <li><Subtext description="✓ Be of high quality and resolution" size="text-lg"  color="#374151"/></li>
+                    <li><Subtext description="✓ Include proper attribution if from external sources" size="text-lg"  color="#374151"/></li>
+                    <li><Subtext description="✓ Follow ethical guidelines for data presentation" size="text-lg"  color="#374151"/></li>
                 </ul>
             </div>
             <div className="border-[0.5px] border-[#10B981] bg-[#E7F8F2] py-1 rounded-md mt-20">

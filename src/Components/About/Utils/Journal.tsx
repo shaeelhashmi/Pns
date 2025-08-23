@@ -13,7 +13,7 @@ export default function Journal() {
 </div>
                       <SubHeading subheading="Now Accepting Manuscripts for Inaugural Issue" className="inline"/>
                       <Subtext description="Synexis launched in 2024 with our first quarterly issue. We invite researchers and scholars
-from all scientific disciplines to contribute to this exciting new platform for interdisciplinary research." size="text-lg" color="#4A5568"/>
+from all scientific disciplines to contribute to this exciting new platform for interdisciplinary research." size="text-lg" color="#4A5568" className="text-base"/>
                     </div>
           </>
           </Box>

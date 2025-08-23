@@ -17,12 +17,12 @@ export default function Review() {
               <SubHeading subheading="Multi-stage editorial process"  color="#064E3B" />
             </div>
             <div>
-                <Subtext description="Synexis employs a rigorous multi-stage editorial screening and assessment process:" font="arial" className="text-lg"></Subtext>
+                <Subtext description="Synexis employs a rigorous multi-stage editorial screening and assessment process:"  className="text-lg"></Subtext>
             </div>
             <div>
                 <ul className="list-none">
                     <li><Subtext description="1. Initial Quality Check: " color="#0606BD" className="italic font-bold inline" size="text-lg"></Subtext><Subtext className=" inline" description="Competing interests, ethical compliance, financial disclosures." size="text-lg" ></Subtext></li>
-                    <li><Subtext description="2. Editorial Board Review: " color="#0606BD" className="italic font-bold inline" size="text-lg"></Subtext><Subtext className="inline" font="arial" description="Peer review assignment and final decision making." size="text-lg"></Subtext></li>
+                    <li><Subtext description="2. Editorial Board Review: " color="#0606BD" className="italic font-bold inline" size="text-lg"></Subtext><Subtext className="inline"  description="Peer review assignment and final decision making." size="text-lg"></Subtext></li>
                 </ul>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function Review() {
                 </div>
                 <div>
                         <Subtext description="Manuscript meets all standards
-and is accepted for publication" size="text-lg" font="arial" color="#374151"/>
+and is accepted for publication" size="text-lg"  color="#374151"/>
                 </div>
                 </div>
                 </div>
@@ -59,7 +59,7 @@ and is accepted for publication" size="text-lg" font="arial" color="#374151"/>
                     </div>
                     <div>
                         <Subtext description="Authors invited to address
-reviewer comments" font="arial" size="text-lg" color="#374151"/>
+reviewer comments"  size="text-lg" color="#374151"/>
                     </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ reviewer comments" font="arial" size="text-lg" color="#374151"/>
                         <SubHeading subheading="Reject" size="lg" color="#064E3B" />
                     </div>
                     <div>
-                        <Subtext description="and is accepted for publication" font="arial" size="text-lg" color="#374151"/>
+                        <Subtext description="and is accepted for publication"  size="text-lg" color="#374151"/>
                     </div>
                 </div>
                 </div>
@@ -93,14 +93,14 @@ reviewer comments" font="arial" size="text-lg" color="#374151"/>
               <div>
                 <Subtext description="Research must comply with
 internationally accepted standards
-for research practice and reporting" font="arial" className="text-lg"></Subtext>
+for research practice and reporting"  className="text-lg"></Subtext>
               </div>
               <div>
                 <SubHeading subheading="Post-Publication Issues:" size="lg" color="#047857" className="italic"></SubHeading>
               </div>
               <div>
                 <Subtext description="Addressed per COPE guidelines may result in correction,
-retraction, or expression of concern" font="arial" className="text-lg"></Subtext>
+retraction, or expression of concern"  className="text-lg"></Subtext>
               </div>
             </div>
         </div>
@@ -117,7 +117,7 @@ retraction, or expression of concern" font="arial" className="text-lg"></Subtext
             <div>
               <Subtext description="Accepted manuscripts are
 published on the journal website
-for immediate access" font="arial" className="text-lg"></Subtext>
+for immediate access"  className="text-lg"></Subtext>
             </div>
             <div>
               <SubHeading subheading="Institutional Contact:" size="lg" color="#047857" />
@@ -125,7 +125,7 @@ for immediate access" font="arial" className="text-lg"></Subtext>
             <div>
               <Subtext description="Authors' institutions contacted
 when appropriate for
-ethical or policy matters" font="arial" className="text-lg"></Subtext>
+ethical or policy matters"  className="text-lg"></Subtext>
             </div>
 
           </div>

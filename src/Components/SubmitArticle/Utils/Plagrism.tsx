@@ -18,7 +18,7 @@ export default function Plagrism() {
                 <div>
                     <Subtext description='Synexis adopts the plagiarism policy implemented by the Higher Education Commission of Pakistan.
 As defined by Chambers Dictionary, a plagiarist is "one who steals the thoughts or writings of
-others and gives them out as his own" - adding dishonesty when used for academic gain.' font="arial" className="text-lg"></Subtext>
+others and gives them out as his own" - adding dishonesty when used for academic gain.'  className="text-lg"></Subtext>
                 </div>
               <div className="p-4 bg-[#EBF3FE] border-[0.05px] rounded-md border-[#10B981]">
                       <p className="text-[0.95rem] text-[#2563EB] italic font-bold">Refrence Policy</p>

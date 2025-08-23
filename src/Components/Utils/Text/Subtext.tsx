@@ -1,7 +1,7 @@
-export default function Subtext(props: {className?: string, size?: string, color?: string, description: string,font?: string}) {
+export default function Subtext(props: {className?: string, color?: string,size?: string, description: string}) {
   return (
     <p
-      className={`font-${props.font || "georgia"} ${"md:"+props.size || "md:text-2xl text-xl"} leading-8 ${props.className || ""}`}
+      className={`font-arial ${props.size?"md:"+props.size:"md:text-2xl text-lg"} leading-8 ${props.className || ""}`}
       style={{ color: props.color || "#374151" }}
     >
       {props.description}

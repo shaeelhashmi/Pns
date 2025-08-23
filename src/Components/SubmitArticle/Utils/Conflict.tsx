@@ -17,10 +17,10 @@ export default function Conflict() {
                     </div>
                     <div>
                         <Subtext description="Each author must disclose affiliations, funding sources, and competing interests for research,
-reviews, and opinion-type articles. This policy ensures transparency and maintains editorial integrity." font="arial" size="text-lg"></Subtext>
+reviews, and opinion-type articles. This policy ensures transparency and maintains editorial integrity."  size="text-lg"></Subtext>
                     </div>
                     <div>
-                        <Subtext description="A competing interest exists when professional judgment could be influenced by other interests" font="arial" size="text-lg" color="#D97706" className="italic font-bold"></Subtext>
+                        <Subtext description="A competing interest exists when professional judgment could be influenced by other interests"  size="text-lg" color="#D97706" className="italic font-bold"></Subtext>
                     </div>
                 </div>
             </div>
@@ -37,13 +37,13 @@ reviews, and opinion-type articles. This policy ensures transparency and maintai
                     </div>
                     <div>
                     
-                        <Subtext description="Title page must include for all authors:" font="arial" size="text-lg"></Subtext>
+                        <Subtext description="Title page must include for all authors:"  size="text-lg"></Subtext>
                        <ul className="ml-5">
-                        <li><Subtext description="• Academic affiliations" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Corporate affiliations" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Government institutions" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Industry connections" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Other relevant institutions " font="arial" size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Academic affiliations"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Corporate affiliations"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Government institutions"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Industry connections"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Other relevant institutions "  size="text-lg"></Subtext></li>
                     </ul>
                     </div>
                     <div className="p-4 bg-[#E7F8F2] border-[0.05px] rounded-md border-[#10B981]">
@@ -63,7 +63,7 @@ reviews, and opinion-type articles. This policy ensures transparency and maintai
                     <div className="space-y-2">
                         <SubHeading subheading="2. Funding & Contributions" size="lg"/>
                         <Subtext description="Complete financial contribution 
-disclosure required" font="arial" size="text-lg"></Subtext>
+disclosure required"  size="text-lg"></Subtext>
 
                     </div>
             </div>
@@ -81,15 +81,15 @@ disclosure required" font="arial" size="text-lg"></Subtext>
                     </div>
                     <div>
                     
-                        <Subtext description="Include but not limited to:" font="arial" size="text-lg"></Subtext>
+                        <Subtext description="Include but not limited to:"  size="text-lg"></Subtext>
                        <ul className="ml-5">
                         <li><Subtext description="• Patents (awarded, planned, 
-pending)" font="arial" size="text-lg"></Subtext></li>
+pending)"  size="text-lg"></Subtext></li>
                         <li><Subtext description="• Individual applications from 
-institutions" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Paid employment or consultancy" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Advisory committee payments" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Board membership compensation " font="arial" size="text-lg"></Subtext></li>
+institutions"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Paid employment or consultancy"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Advisory committee payments"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Board membership compensation "  size="text-lg"></Subtext></li>
                     </ul>
                     </div>
                     <div className="p-4 bg-[#FEFAF3] border-[0.05px] rounded-md border-[#F59E0B]">
@@ -118,14 +118,14 @@ for disclosure requirement
                     </div>
                     <div>
                     
-                        <Subtext description="May impact objectivity:" font="arial" size="text-lg"></Subtext>
+                        <Subtext description="May impact objectivity:"  size="text-lg"></Subtext>
                        <ul className="ml-5">
-                        <li><Subtext description="• Expert witness roles" font="arial" size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Expert witness roles"  size="text-lg"></Subtext></li>
                         <li><Subtext description="• Government advisory board 
-   membership" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Paid employment or consultancy" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Advisory committee payments" font="arial" size="text-lg"></Subtext></li>
-                        <li><Subtext description="• Board membership compensation " font="arial" size="text-lg"></Subtext></li>
+   membership"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Paid employment or consultancy"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Advisory committee payments"  size="text-lg"></Subtext></li>
+                        <li><Subtext description="• Board membership compensation "  size="text-lg"></Subtext></li>
                     </ul>
                     </div>
                     <div className="p-4 bg-[#F9F7FF] border-[0.05px] rounded-md border-[#8B5CF6]">

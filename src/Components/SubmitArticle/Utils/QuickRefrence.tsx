@@ -18,11 +18,11 @@ export default function QuickRefrence() {
              
               <div className="">
                   <ul className="list-none ml-5">
-                      <li> <Subtext description="✔ Manuscript written in English" size="text-lg" font="arial" className="inline"/></li>
-                      <li> <Subtext description="✔ All authors have approved final version" size="text-lg" font="arial" className="inline"/></li>
-                      <li> <Subtext description="✔ Conflicts of interest disclosed" size="text-lg" font="arial" className="inline"/></li>
-                      <li> <Subtext description="✔ Ethics approvals documented" size="text-lg" font="arial" className="inline"/></li>
-                      <li> <Subtext description="✔ Images represent original data accurately" size="text-lg" font="arial" className="inline"/></li>
+                      <li> <Subtext description="✔ Manuscript written in English" size="text-lg"  className="inline"/></li>
+                      <li> <Subtext description="✔ All authors have approved final version" size="text-lg"  className="inline"/></li>
+                      <li> <Subtext description="✔ Conflicts of interest disclosed" size="text-lg"  className="inline"/></li>
+                      <li> <Subtext description="✔ Ethics approvals documented" size="text-lg"  className="inline"/></li>
+                      <li> <Subtext description="✔ Images represent original data accurately" size="text-lg"  className="inline"/></li>
       
                   </ul>
                  
@@ -45,9 +45,9 @@ export default function QuickRefrence() {
              
               <div className="">
                   <ul className="list-none ml-5">
-                      <li> <Subtext description="• AI-generated images require prior approval" size="text-lg" font="arial" className="inline"/></li>
-                      <li> <Subtext description="• Any authorship changes need written approval" size="text-lg" font="arial" className="inline"/></li>
-                      <li> <Subtext description="• Post-publication issues follow COPE guidelines" size="text-lg" font="arial" className="inline"/></li>
+                      <li> <Subtext description="• AI-generated images require prior approval" size="text-lg"  className="inline"/></li>
+                      <li> <Subtext description="• Any authorship changes need written approval" size="text-lg"  className="inline"/></li>
+                      <li> <Subtext description="• Post-publication issues follow COPE guidelines" size="text-lg"  className="inline"/></li>
                   </ul>
                  
               </div>

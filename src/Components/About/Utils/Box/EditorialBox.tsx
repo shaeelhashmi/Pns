@@ -8,7 +8,7 @@ export default function EditorialBox(props:{Heading:string,desc:string,button:st
     <Box >
 <div className="space-y-2 ">
                   <SubHeading subheading={props.Heading} />
-                  <Subtext description={props.desc} size="text-lg" color="#4A5568"/>
+                  <Subtext description={props.desc} size="text-lg" className="text-base" color="#4A5568"/>
                 </div>
 
     </Box>
