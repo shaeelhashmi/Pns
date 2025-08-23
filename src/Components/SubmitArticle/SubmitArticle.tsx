@@ -34,7 +34,11 @@ export default function SubmitArticle() {
               <PublicationEthics/>
         </div>
          <div className="my-7 space-y-10">
-              <Heading heading="Quick Refrence Guides" size='1.75rem' />
+              <h1
+      className=" md:text-[1.75rem] sm:text-2xl text-xl w-fit font-bold after:w-[70%] after:content-[''] after:block after:h-[2px] after:bg-[#047957] after:mt-2 block font-georgia"
+    >
+      Quick Refrence Guides
+    </h1>
               <QuickRefrence/>
         </div>
           <div className="my-7 space-y-10 ">

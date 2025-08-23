@@ -15,8 +15,8 @@ function App() {
         <Top />
         <Routes>
           <Route path="/" element={<></>} />
-          <Route path="/about" element={<><AboutHero/><div className='m-5  md:md:ml-13  md:mx-0 mx-3'><div className='w-full'><About /></div></div></>} />
-        <Route path='/submit-article' element={<><SubmitArticleHero/><div className='m-5  md:ml-13 mx-3 md:mx-0'><div className='w-full'><SubmitArticle /></div></div></>} />
+          <Route path="/about" element={<><AboutHero/><div className='m-5  md:mx-13   mx-3'><div className='w-full'><About /></div></div></>} />
+        <Route path='/submit-article' element={<><SubmitArticleHero/><div className='m-5  md:mx-13 mx-3 '><div className='w-full'><SubmitArticle /></div></div></>} />
         </Routes>
       </Router>
     </>
