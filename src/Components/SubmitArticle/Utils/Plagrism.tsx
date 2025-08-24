@@ -22,7 +22,7 @@ others and gives them out as his own" - adding dishonesty when used for academic
                 </div>
               <div className="p-4 bg-[#EBF3FE] border-[0.05px] rounded-md border-[#10B981]">
                       <p className="text-[0.95rem] text-[#2563EB] italic font-bold">Refrence Policy</p>
-                       <a className="md:text-sm text-xs  text-[#2563EB]" href="  https://www.hec.gov.pk/english/policies/Pages/Plagiarism.aspx ">
+                       <a className="md:text-sm text-xs text-[#2563EB] break-all" href="  https://www.hec.gov.pk/english/policies/Pages/Plagiarism.aspx ">
                    https://www.hec.gov.pk/english/policies/Pages/Plagiarism.aspx 
                        </a>
 
