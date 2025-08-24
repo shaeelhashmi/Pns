@@ -23,7 +23,7 @@ export default function PublicationEthics() {
                 <CopeMember emoji="JA" name="Javed Akhtar" role="Committee Member" subrole="Ethics Specialist"/>
                 <CopeMember emoji="MNK" name="Muhammad Nasir Khan" role="Committee Member" subrole="Research integrity"/>
                 <CopeMember emoji="SH" name="Sohail Hameed" role="Committee Member" subrole="Publication Standards"/>
-                <CopeMember emoji="SK" name="Sahab Khushnood" role="Committee Member" subrole="Editorial oversight"/>
+                <CopeMember emoji="SK" name="Shahab Khushnood" role="Committee Member" subrole="Editorial oversight"/>
              </div>
               </div>
             

@@ -72,7 +72,7 @@ reviewer comments"  size="text-lg" color="#374151"/>
                         <SubHeading subheading="Reject" size="lg" color="#064E3B" />
                     </div>
                     <div>
-                        <Subtext description="and is accepted for publication"  size="text-lg" color="#374151"/>
+                        <Subtext description="Submitted manuscripts are rejected after not passing the review process"  size="text-lg" color="#374151"/>
                     </div>
                 </div>
                 </div>
