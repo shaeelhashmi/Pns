@@ -1,5 +1,5 @@
 import EmojiCircle from "./EmojiCircle"
-export default function CopeMember(props:{emoji:string, name:string, role:string,subrole:string}) {
+export default function CopeMember(props:{emoji:string, name:string, role:string}) {
   return (
        <div className="bg-[#F3FBF9] border-[0.05px] rounded-md border-[#10B981] p-2">
                     <div className="grid grid-cols-[auto_1fr] ">
@@ -9,7 +9,6 @@ export default function CopeMember(props:{emoji:string, name:string, role:string
                             <div>
                                 <p className="text-[#064E3B] md:text-base text-[0.95rem] font-bold italic">{props.name}</p>
                                 <p className="text-[#374151] md:text-sm text-[0.8rem]">{props.role}</p>
-                                <p className="text-[#6B7280] md:text-[0.8rem] text-xs">{props.subrole}</p>
 
                              </div>
                              </div>
