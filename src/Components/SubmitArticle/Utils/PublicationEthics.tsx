@@ -20,10 +20,10 @@ export default function PublicationEthics() {
                     <Subtext description='The committee meets (in person or online) whenever a case is referred for scrutiny.'  size="text-lg"></Subtext>
                 </div>
              <div className="grid xl:grid-cols-4 md:grid-cols-2 xl:gap-10 gap-5  pr-2">
-                <CopeMember emoji="JA" name="Javed Akhtar" role="Chief editor(Chemistry,material sciences)" subrole="Ethics Specialist"/>
-                <CopeMember emoji="MNK" name="Muhammad Nasir Khan" role="Chief editor(Physics)" subrole="Research integrity"/>
-                <CopeMember emoji="SH" name="Sohail Hameed" role="Chief editor(BioSciences)" subrole="Publication Standards"/>
-                <CopeMember emoji="SK" name="Shahab Khushnood" role="Chief editor(Engineering)" subrole="Editorial oversight"/>
+                <CopeMember emoji="JA" name="Javed Akhtar" role="Chief editor(Chemistry,material sciences)"/>
+                <CopeMember emoji="MNK" name="Muhammad Nasir Khan" role="Chief editor(Physics)" />
+                <CopeMember emoji="SH" name="Sohail Hameed" role="Chief editor(BioSciences)" />
+                <CopeMember emoji="SK" name="Shahab Khushnood" role="Chief editor(Engineering)" />
              </div>
               </div>
             
