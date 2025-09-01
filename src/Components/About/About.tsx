@@ -45,7 +45,7 @@ export default function About() {
       ) : (
         // Otherwise show the full About page
         <>
-          <div className="my-7 space-y-10">
+          <div className="my-7 space-y-10" id="top">
             <Heading heading="Our Mission" />
             <Mission />
           </div>

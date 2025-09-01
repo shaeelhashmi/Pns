@@ -1,5 +1,6 @@
 import Box from "../../Utils/Text/Box/Box"
 import AuthorHeading from "./Text/AuthorHeading"
+import { Link } from "react-router-dom"
 import AuthorText from "./Text/AuthorText"
 export default function Authors() {
   return (
@@ -23,7 +24,7 @@ Fast-track peer review process available." />
 Supported by voluntary donations
 No article processing charges" />
                 </div>
-                <a className="bg-[#CAF8E3] p-2 italic  font-bold rounded-md my-2 mt-4 inline-block" href="/guidelines">Learn More</a>
+                <Link className="bg-[#CAF8E3] p-2 italic  font-bold rounded-md my-2 mt-4 inline-block" to="/guidelines">Learn More</Link>
         </>
       </Box>
                <div className="relative w-[100%] p-7 px-10 my-3   rounded-lg border-2 border-[#047957] [box-shadow:0_4px_4px_0_rgba(0,0,0,0.25)] xl:col-span-1 md:col-span-2" style={{background:"linear-gradient(110deg, #1F2937 0%, #064E3B 100%)"}}>

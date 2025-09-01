@@ -35,7 +35,7 @@ export default function Profile({ profile }: ProfileProps) {
   {/* Right side */}
   <div className="flex items-center space-x-1 w-full">
     <div className="bg-[#5FB386] h-2 flex-1 sm:block hidden"></div>
-    <div className="bg-[#5FB386] rounded-full ml-2 h-5 w-5 shrink-0 ml-auto"></div>
+    <div className="bg-[#5FB386] rounded-full h-5 w-5 shrink-0 ml-auto"></div>
   </div>
 </div>
 

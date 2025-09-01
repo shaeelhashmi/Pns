@@ -3,7 +3,7 @@ import HeroLeftBox from "../../Header/Hero/Util/HeroLeftBox"
 export default function AboutHero() {
   return (
     <div>
-      <Hero Boxes={[ <HeroLeftBox heading="The Synexis snapshot Synergy of sciences" content="Connecting diverse fields of knowledge through interdisciplinary research and innovative solutions" subContent="σύνεξις - Connection, Union, Coming Together" ButtonText="Explore Research" />,
+      <Hero Boxes={[ <HeroLeftBox heading="The Synexis snapshot Synergy of sciences" content="Connecting diverse fields of knowledge through interdisciplinary research and innovative solutions" subContent="σύνεξις - Connection, Union, Coming Together" ButtonText="Explore Research" link="#top"/>,
                <div className='rounded-lg text-white  bg-[#6a6f7754] flex justify-center items-center xl:px-5 md:px-20 sm:px-10 px-5 py-7   w-full md:h-[270px]'>
         <div className="max-sm:w-full">
             <h3 className='md:text-lg text-base font-bold font-arial text-center italic'>Research Categories</h3>

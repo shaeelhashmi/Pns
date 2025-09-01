@@ -33,7 +33,7 @@ export default function Nav() {
           <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
           <li><Link to="/current-issue" onClick={toggleMenu}>Current Issue</Link></li>
           <li><Link to="/archive" onClick={toggleMenu}>Archive</Link></li>
-          <li><Link to="/submit-article" onClick={toggleMenu}>Submit article</Link></li>
+               <li><Link to="/guidelines"  onClick={toggleMenu}>Submission guidelines</Link></li>
           <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
         </ul>
       )}

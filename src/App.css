@@ -5,6 +5,9 @@
   --font-georgia: Georgia, serif;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body{
   background-color: #F0F9F4;
