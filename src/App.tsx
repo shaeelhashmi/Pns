@@ -7,7 +7,7 @@ import About from './Components/About/About'
 import SubmitArticleHero from './Components/SubmitArticle/Hero/SubmitArticleHero'
 import AboutHero from './Components/About/Hero/AboutHero'
 import SubmitArticle from './Components/SubmitArticle/SubmitArticle'
-
+import Footer from './Components/Footer/Footer'
 function AppContent() {
   const location = useLocation();
   const hasQuery = location.search.length > 0;
@@ -20,6 +20,7 @@ function AppContent() {
         <Route path="/about" element={<>{!hasQuery && <AboutHero/>}<div className='m-5  md:mx-13   mx-3'><div className='w-full'><About /></div></div></>} />
         <Route path='/guidelines' element={<><SubmitArticleHero/><div className='m-5  md:mx-13 mx-3 '><div className='w-full'><SubmitArticle /></div></div></>} />
       </Routes>
+      <Footer />
     </>
   )
 }
