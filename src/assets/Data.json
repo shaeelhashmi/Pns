@@ -1,0 +1,42 @@
+{
+  "Masroor Ikram": {
+    "subname": "Editor in Chief",
+    "Education":"Pakistan Institute of Engineering and Applied Sciences (PIEAS), Pakistan",
+    "awards": "Dr. Masroor Ikram, Tamgha-i-Imtiaz (Medal of Distinction)",
+    "description": "Dr. Ikram did a PhD from Cambridge University, United Kingdom, in the field of laser physics. Currently, he is associated with PIEAS.\n\n Dr. Ikram has established a biophotonics research group and set up multiple graduate-level research laboratories at PIEAS. Over the years, He has produced high-quality research. Higher Education Commission recognized his research and gave him the best research paper awards in 2008 and 2011. Moreover, the Pakistan Council for Scientific and Technology included his name for several years as a productive scientist of Pakistan and honored him with cash prizes. \n\nIn recognition of his outstanding contributions to science, he was awarded the Tamgha-i-Imtiaz (Medal of Distinction) by the President of Pakistan on March 23, 2015. Internationally, UNESCO approved the establishment of a Chair titled \"Light for Health \" at PIEAS in 2012, with Dr. Ikram serving as its chair holder until October 2019. \n\n Contemporary research is increasingly multidisciplinary, with fields like artificial intelligence being applied across almost all areas of science, engineering, and medicine. The journal Synexis is designed to address the evolving needs of such modern, integrated research. \n\n Launching a new journal and earning recognition within the scientific community is undoubtedly a challenging endeavor. However, with the support of a dedicated and capable editorial team, this challenge can be successfully met, and Synexis can establish itself among the respected journals in the scientific community.",
+    "email": "mikram@synexjournal.com",
+    "image": "/masroor.png"
+  },
+  "Javed Akhtar": {
+    "subname": "Chief Editor (Chemistry & Materials Sciences)",
+    "Education": "Pakistan Academy of Sciences, Pakistan",
+    "awards": "Dr. Javed Akhtar, Pride of Performance",
+    "description": "Dr. Javed Akhtar, retired Chief Scientist from PAEC, served as Director-Coordination (PINSTECH), Executive Secretary of the International Nathiagali Summer College, and Editor-in-Chief of The Nucleus. He is a recipient of the Dr. M. Raziuddin Siddique Award & a gold medal (1995), and the Ibn-al-Haytham Prize (1997) by Pakistan Academy of Sciences. He has made significant contributions to Pakistan's scientific community and was recognized by awarding him a national civil award, the Pride of Performance, in 2009.",
+    "email": "mikram@synexjournal.com",
+    "image": "/JavedAkhtar.png"
+  },
+  "Sohail Hameed": {
+    "subname": "Chief Editor (Biosciences)",
+    "Education": " NIBGE-PIEAS, Pakistan",
+    "awards": "Dr. Sohail Hameed",
+    "description": "Dr. Sohail Hameed has over 42 years of academic and research experience in biosciences, beginning after an MSc from Quaid-i-Azam University (1981). His career spans research in Canada, a PhD at QAU, postdoctoral work in Scotland, and leadership roles in PAEC bio-centers, including NIAB, NIFA, and NIBGE, where he served as Director - NIBGE. At PAEC HQs he served as director Academics & Coordination (biology) for agriculture and biotechnology research institutes and their coordination with PIEAS. An HEC-recognized PhD supervisor, he has mentored numerous scholars, developed advanced research facilities, authored high-impact publications, and pioneered the commercial biofertilizer, BioPower. He is an affiliated professor at the University of Wah, adjunct at PIEAS-NIBGE for biotechnology, and Chief Editor (Biosciences) of Synexis.",
+    "email": "sohail.hameed@synexjournal.com",
+    "image": "/SohailHameed.png"
+  },
+  "Muhammad Nasir Khan": {
+    "subname": "Chief Editor (Physics).",
+    "Education": " International Islamic University, Islamabad, Pakistan",
+    "awards": "Dr. Muhammad Nasir Khan, Tamgha-i-Imtiaz (Medal of Distinction)",
+    "description": "Dr. Muhammad Nasir Khan retired from PAEC services as Chief Scientist /Director Science in 2024. He has a PhD in Applied engineering physics (condensed matter physics) from the University of Tsukuba, and his postdoc from the Electrotechnical Labs (Now AIST), Tsukuba, Japan. He has over three decades of experience in R&D, academics, and management. He has been associated with the Pakistan Institute of Engineering & Applied Sciences and AJK University as an adjunct professor of physics. Dr. Khan has published over 100 international publications in reputed international journals with high impact factors, besides an international patent. His research interest is in experimental applied condensed matter Physics.",
+    "email": "nasir852001@gmail.com",
+    "image": "/MuhammadNasirKhan.png"
+  },
+  "Shahab Khushnood": {
+    "subname": "Chief Editor (Engineering)",
+    "Education": " University of Wah, Pakistan",
+    "awards": "Dr. Shahab Khushnood",
+    "description": "Academic professional with a strong foundation in Analytical and Experimental Thermal & Vibration Research. Passionate about research, innovation, and capacity building, with a keen interest in supporting individuals and organizations in areas like proposal development, academic writing, and policy analysis, for consultancy projects related to Flow Induced Vibrations, Thermal Systems, and Optimal Analysis.",
+    "email": "shahab.khshnood@synexjournal.com",
+    "image": "/ShahabKhushnood.png"
+  }
+}

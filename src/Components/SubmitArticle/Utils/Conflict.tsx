@@ -93,7 +93,7 @@ institutions"  size="text-lg"></Subtext></li>
                     </ul>
                     </div>
                     <div className="p-4 bg-[#FEFAF3] border-[0.05px] rounded-md border-[#F59E0B]">
-                      <p className="md:text-[0.95rem] text-base text-[#D97706] italic font-bold">Key Requirement:</p>
+                      <p className="md:text-[0.95rem] text-sm text-[#D97706] italic font-bold">Key Requirement:</p>
                        <p className="md:text-sm text-[0.8rem]  text-[#374151]">
                            Must relate to the subject matter of
 the manuscript contribution

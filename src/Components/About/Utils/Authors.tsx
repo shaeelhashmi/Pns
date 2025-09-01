@@ -12,8 +12,8 @@ export default function Authors() {
 to minimize typesetting and editorial errors.
 Fast-track peer review process available." />
                 </div>
-                <button className="bg-[#D3E3FF] p-2 italic  font-bold rounded-md my-2 mt-4">Submit ManuScript</button>
-              </>
+                <a className="bg-[#D3E3FF] p-2 italic  font-bold rounded-md my-2 mt-4 inline-block " href='https://synexisjournal.com/online/index.php/synexis/submission'  target="_blank"> Submit ManuScript</a>
+          </>
       </Box>
       <Box >
             <>
@@ -23,7 +23,7 @@ Fast-track peer review process available." />
 Supported by voluntary donations
 No article processing charges" />
                 </div>
-                <button className="bg-[#CAF8E3] p-2 italic  font-bold rounded-md my-2 mt-4">Learn More</button>
+                <a className="bg-[#CAF8E3] p-2 italic  font-bold rounded-md my-2 mt-4 inline-block" href="/guidelines">Learn More</a>
         </>
       </Box>
                <div className="relative w-[100%] p-7 px-10 my-3   rounded-lg border-2 border-[#047957] [box-shadow:0_4px_4px_0_rgba(0,0,0,0.25)] xl:col-span-1 md:col-span-2" style={{background:"linear-gradient(110deg, #1F2937 0%, #064E3B 100%)"}}>

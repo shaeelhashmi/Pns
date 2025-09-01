@@ -23,7 +23,7 @@ export default function Nav() {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/current-issue">Current Issue</Link></li>
         <li><Link to="/archive">Archive</Link></li>
-        <li><Link to="/submit-article">Submit article</Link></li>
+        <li><Link to="/guidelines">Submission guidelines</Link></li>
         <li><Link to="/about">About</Link></li>
       </ul>
 

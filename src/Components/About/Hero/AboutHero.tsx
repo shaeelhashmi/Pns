@@ -8,17 +8,17 @@ export default function AboutHero() {
         <div className="max-sm:w-full">
             <h3 className='md:text-lg text-base font-bold font-arial text-center italic'>Research Categories</h3>
             <div className='grid sm:grid-cols-2 grid-cols-1 gap-4 my-2'>
-                <div className='bg-[#2365ff54]  flex items-center justify-center flex-col rounded-lg sm:w-[220px] w-full h-[65px] p-4'>
+                <div className='bg-[#2365ff54]  flex items-center justify-center flex-col rounded-lg  w-full h-[65px] p-4'>
                       <p className='text-center font-bold md:text-base text-sm italic'>BioSciences</p>
                     <p className='text-center md:text-sm text-xs text-[#CBD5E0]'>Life Sciences & medicines</p>
                 </div>
-                <div className='bg-[#b08cff54] flex items-center justify-center flex-col rounded-lg sm:w-[220px] w-full h-[65px] p-4'>
+                <div className='bg-[#b08cff54] flex items-center justify-center flex-col rounded-lg  w-full h-[65px] p-4'>
                     <p className='text-center font-bold md:text-base text-sm  italic'>Chemistry & materials</p>
                     <p className='text-center md:text-sm text-xs text-[#CBD5E0]'>Chemical Sciences</p>
                 </div>
-                <div className='bg-[#00FF9F54] flex items-center justify-center flex-col rounded-lg sm:w-[220px] w-full h-[65px] p-4'>  <p className='text-center font-bold md:text-base text-sm  italic'>Physical Sciences </p>
+                <div className='bg-[#00FF9F54] flex items-center justify-center flex-col rounded-lg  w-full h-[65px] p-4'>  <p className='text-center font-bold md:text-base text-sm  italic'>Physical Sciences </p>
                     <p className='text-center md:text-sm text-xs text-[#CBD5E0]'>Physics & mathematics</p></div>
-                <div className='bg-[#FF57ED54] flex items-center justify-center flex-col rounded-lg sm:w-[220px] w-full h-[65px] p-4'>  <p className='text-center font-bold md:text-base text-sm  italic'>Engineering</p>
+                <div className='bg-[#FF57ED54] flex items-center justify-center flex-col rounded-lg  w-full h-[65px] p-4'>  <p className='text-center font-bold md:text-base text-sm  italic'>Engineering</p>
                     <p className='text-center md:text-sm text-xs text-[#CBD5E0]'>Applied Sciences</p></div>
             </div>
         </div>
