@@ -18,7 +18,7 @@ function AppContent() {
     <>
       <Top />
       <Routes>
-        <Route path="/" element={<><div className='m-5  md:mx-13   mx-3'><Home></Home></div></>} />
+        <Route path="/" element={<><div ><Home></Home></div></>} />
         <Route path="/about" element={<>{!hasQuery && <AboutHero/>}<div className='m-5  md:mx-13   mx-3'><div className='w-full'><About /></div></div></>} />
         <Route path='/guidelines' element={<><SubmitArticleHero/><div className='m-5  md:mx-13 mx-3 '><div className='w-full'><SubmitArticle /></div></div></>} />
         <Route path='*' element={<Page404 />} />

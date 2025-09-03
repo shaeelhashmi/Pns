@@ -1,10 +1,15 @@
 
 import Box from './Utils/Box/Box'
+import FieldBox from './Utils/Box/Utils/FieldBox'
 import Button from './Utils/Button/Button'
-
+import Contact from './Utils/Contact'
+import Faqs from './Utils/Faqs'
+import News from './Utils/News'
 export default function Home() {
   return (
-    <>  
+    <>
+    <div className='grid xl:grid-cols-[1fr_auto] grid-cols-1 m-5  md:mx-13   mx-3 gap-4'>
+    <div >  
      <div className='my-7 '>
       <Box heading='About Our Journal' subheading='Synexis' description='Synexis is a quarterly, peer-reviewed journal that publishes significant original scientific research plus reviews. We seek to publish manuscripts that are influential in their fields or across fields and that will substantially advance scientific understanding. The selected manuscript should present novel and broadly important data, syntheses, or concepts. We welcome submissions from all fields of science.' topColor='linear-gradient(90deg, #065F46 0%, #09926B 30%, #0BAC7E 75%, #0CC690 100%)' remainingElement={<div className="flex justify-end"><Button text='About' link='/about' bg='#38A169' /></div>} border={false} svg={
           <svg width="51" height="51" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +33,7 @@ export default function Home() {
 
       }></Box>
     </div>
-        <div className='my-7'>
+        <div className='my-7 '>
       <Box heading='Submission Guidelines' subheading='Quick Submission Overview ' description='Manuscripts should be submitted to our manuscript submission and information portal. The status of submitted manuscripts can also be tracked at this portal.
 Authors should familiarize themselves with the overall editorial policies for Synexis before submitting their manuscript. These policies spell out the rights and responsibilities that authors agree to when submitting and publishing their manuscripts.  ' topColor='linear-gradient(90deg, #293342 0%, #495A75 30%, #596E8F 75%, #6882A8 100%)' remainingElement={<div className="flex justify-end flex-col my-3 items-end space-y-3"><Button text='Submit Manuscript' link='/guidelines' bg='#38A169' />
 <Button text='Submit Article' bg="#2D3748" link='https://synexisjournal.com/online/index.php/synexis/submission' target='_blank'></Button></div>} border={false} svg={
@@ -51,9 +56,19 @@ Authors should familiarize themselves with the overall editorial policies for Sy
 </defs>
 </svg>
       }></Box>
-       <div className='my-7'>
-      <Box heading='Special Issues' subheading='Curated Research Collections' description='Our Special Issues program brings together cutting-edge research around focused themes, emerging fields, and interdisciplinary topics. Each collection is carefully curated by leading experts to showcase breakthrough discoveries and foster collaborative scientific dialogue.' topColor='linear-gradient(90deg, #330909 0%, #811B1B 25%, #8D2A2A 75%, #A14B4B 100%)' remainingElement={<div className="flex justify-end flex-col my-3 items-end space-y-3"><Button text='Submit Manuscript' link='/guidelines' bg='#38A169' />
-<Button text='Submit Article' bg="#2D3748" link='https://synexisjournal.com/online/index.php/synexis/submission' target='_blank'></Button></div>} border={false} svg={
+      
+       </div>
+        <div className='my-7'>
+      <Box heading='Special Issues' subheading='Curated Research Collections' description='Our Special Issues program brings together cutting-edge research around focused themes, emerging fields, and interdisciplinary topics. Each collection is carefully curated by leading experts to showcase breakthrough discoveries and foster collaborative scientific dialogue.' topColor='linear-gradient(90deg, #330909 0%, #811B1B 25%, #8D2A2A 75%, #A14B4B 100%)' remainingElement={
+        <div className='grid sm:grid-cols-2 grid-cols-1 gap-4'>
+          <FieldBox heading="BioSciences" subHeading="Life Sciences" bgColor='#3255A6'/>
+           <FieldBox heading="Chemistry" subHeading="Chemical Sciences" bgColor='#737DC6'/>
+            <FieldBox heading="Physical Sciences" subHeading="Physics & Mathematics" bgColor='#2A8F71'/>
+             <FieldBox heading="Engineering" subHeading="Applied Sciences" bgColor='#7D4F89'/>
+        </div>
+      } 
+      
+      border={false} svg={
 <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 25 24" fill="none">
 <path d="M12.5176 2.5L15.5176 8.5L22.5176 9.5L17.5176 14.5L18.5176 21.5L12.5176 18.5L6.51758 21.5L7.51758 14.5L2.51758 9.5L9.51758 8.5L12.5176 2.5Z" stroke="#DC2626" stroke-width="2"/>
 <path d="M12.5176 15.5C14.1744 15.5 15.5176 14.1569 15.5176 12.5C15.5176 10.8431 14.1744 9.5 12.5176 9.5C10.8607 9.5 9.51758 10.8431 9.51758 12.5C9.51758 14.1569 10.8607 15.5 12.5176 15.5Z" fill="#DC2626"/>
@@ -61,7 +76,17 @@ Authors should familiarize themselves with the overall editorial policies for Sy
       }></Box>
     </div>
     </div>
-    </>
+    <News></News>
+       </div>
+    <div className="my-7">
+      <Faqs/>
+    </div>
+     <div className="mt-7">
+      <Contact/>
+    </div>
+    
  
+ 
+ </>
   )
 }
