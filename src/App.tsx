@@ -9,6 +9,7 @@ import AboutHero from './Components/About/Hero/AboutHero'
 import SubmitArticle from './Components/SubmitArticle/SubmitArticle'
 import Footer from './Components/Footer/Footer'
 import Page404 from './Components/Page404'
+import Home from './Components/Home/Home'
 function AppContent() {
   const location = useLocation();
   const hasQuery = location.search.length > 0;
@@ -17,7 +18,7 @@ function AppContent() {
     <>
       <Top />
       <Routes>
-        <Route path="/" element={<></>} />
+        <Route path="/" element={<><div className='m-5  md:mx-13   mx-3'><Home></Home></div></>} />
         <Route path="/about" element={<>{!hasQuery && <AboutHero/>}<div className='m-5  md:mx-13   mx-3'><div className='w-full'><About /></div></div></>} />
         <Route path='/guidelines' element={<><SubmitArticleHero/><div className='m-5  md:mx-13 mx-3 '><div className='w-full'><SubmitArticle /></div></div></>} />
         <Route path='*' element={<Page404 />} />
