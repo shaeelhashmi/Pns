@@ -2,7 +2,7 @@ import BoxTop from "./Box/Utils/BoxTop"
 import SVGCircle from "./SVGC/SVGCircle"
 export default function News() {
   return (
-    <div className="border-2 border-[#1D3FAB] rounded-2xl">
+    <div className="border-2 border-[#1D3FAB] rounded-2xl my-7">
     <div className="space-y-2">
       <BoxTop topColor="#1E41B0">
            <div className='grid grid-cols-[auto_1fr] gap-4 items-center'>

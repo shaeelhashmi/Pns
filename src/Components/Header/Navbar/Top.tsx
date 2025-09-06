@@ -1,8 +1,14 @@
 import { useState, useEffect } from 'react'
 import Nav from './Nav'
+import { useLocation } from 'react-router-dom'
 
 export default function Top() {
   const [searchTerm, setSearchTerm] = useState('')
+  const location =useLocation()
+  useEffect(() => {
+    // Clear search term when navigating to a new page
+    setSearchTerm('')
+  }, [location.pathname])
 
   const handleSearch = (searchValue: string) => {
     const trimmedValue = searchValue.toLowerCase().trim()
