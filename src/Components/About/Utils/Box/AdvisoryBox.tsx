@@ -25,7 +25,7 @@ export default function AdvisoryBox(props:props) {
                          <Subtext description={props.Affiliation} size="text-[0.94rem]" className='text-xs' color="#4A5568"/>
                   </div>
     <div className='col-start-2'>
-    <Link className='bg-[#d5ffe8] text-black font-arial font-bold italic py-2 px-4 rounded-lg text-[0.94rem]'
+    <Link className='bg-[#d5ffe8] hover:bg-[#c5ffdf] duration-200 transition-all text-black font-arial font-bold italic py-2 px-4 rounded-lg text-[0.94rem]'
       to={`?author=${props.Name.toLowerCase().replace(/\s+/g, '-')}`}
     >View Profile →</Link>
     </div>

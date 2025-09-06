@@ -14,7 +14,7 @@ journal that seeks to integrate diverse fields of knowledge.
 A quarterly, peer-reviewed, open-access publication
 dedicated to sharing significant advances in basic
 sciences, engineering, and allied disciplines.' size="text-lg" className="text-base" color="#4A5568" />
-              </div>,
+              </div>
 
       </Box>
       <Box>

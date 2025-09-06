@@ -61,7 +61,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="min-h-screen bg-[#2C3E50] flex items-center justify-center p-8">
+        <div className="min-h-screen bg-[#2C3E50] flex items-center justify-center p-8" id='contact'>
             <div className="w-full max-w-2xl space-y-2">
 
                 <Heading heading='Contact Editorial Board' afterColor='#ffffff' textColor='white' class='after:mx-auto text-center mx-auto'>

@@ -52,7 +52,7 @@ export default function Editorial() {
             </ul>
         </div>
         <div>
-            <button className="bg-[#FEF5E7] w-[180px] h-[30px] italic text-center text-[#D97706] font-arial text-[0.81rem] font-bold rounded-md border-2 border-[#F59E0B]  cursor-pointer">Primary point of contact</button>
+            <a className="bg-[#FEF5E7] w-[180px] h-[30px] italic text-center text-[#D97706] font-arial text-[0.81rem] font-bold rounded-md border-2 border-[#F59E0B]  cursor-pointer p-2" href="/#contact">Primary point of contact</a>
         </div>
         </div>
         </div>

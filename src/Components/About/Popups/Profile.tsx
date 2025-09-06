@@ -73,9 +73,9 @@ export default function Profile({ profile }: ProfileProps) {
           <Subtext description={profile.description} />
            </div>
 
-          <div className="pt-4 border-t border-gray-200 ">
+          <a className="pt-4" href={`mailto:${profile.email}`}>
             <Subtext description={`Email: ${profile.email}`} />
-          </div>
+          </a>
        
       </div>
     </div>
