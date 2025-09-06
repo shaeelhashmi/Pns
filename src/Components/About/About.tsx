@@ -9,6 +9,7 @@ import Advisory from "./Utils/Advisory"
 import Profile from "./Popups/Profile"
 import data from "../../assets/Data.json"
 import { useEffect, useState } from "react"
+import Page404 from "../Page404"
 
 export default function About() {
   const query = new URLSearchParams(window.location.search).get("author");
@@ -37,11 +38,15 @@ export default function About() {
 
   return (
     <div>
-      {query && matchedProfile ? (
-        // Only show profile if query exists and match is found
+
+      {query ? (
+       matchedProfile ? (
         <div className="my-7 space-y-10">
           <Profile profile={matchedProfile} />
         </div>
+        ) : (
+         <Page404 />
+        )
       ) : (
         // Otherwise show the full About page
         <>

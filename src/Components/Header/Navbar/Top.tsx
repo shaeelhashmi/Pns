@@ -90,8 +90,14 @@ export default function Top() {
 
   return (
     <nav className=''>
-      <div className="bg-[#2D3748] p-2 text-white text-center font-arial">
-        <p className='md:text-base text-sm'>Synexis research Portal- Synergy of Sciences</p>
+      <div className="bg-[#2D3748] p-2 text-white text-center font-arial grid grid-cols-1 md:grid-cols-2 gap-y-2">
+        <p className='md:text-lg text-base'>Synexis research Portal- Synergy of Sciences</p>
+        <div className='flex font-arial md:text-lg text-base text-[#CBD5E0] gap-4 md:justify-start justify-center'>
+            <a href='https://synexisjournal.com/online/index.php/synexis/login' target='_blank'>Login</a>
+            <span>|</span>
+               <a href='https://synexisjournal.com/online/index.php/synexis/user/register' target='_blank'>SignUp</a>
+        </div>
+      
       </div>
       <div className='grid grid-cols-1 lg:grid-cols-2 place-content-center items-center justify-center m-5 md:mx-13 mx-3 gap-5'>
         <div>
