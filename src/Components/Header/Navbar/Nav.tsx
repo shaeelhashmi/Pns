@@ -29,11 +29,38 @@ export default function Nav() {
       </div>
 
       {/* Mobile menu */}
-        <ul className="list-none md:hidden flex justify-center items-center text-xl space-x-6 py-2">
-            <li><a href="https://synexisjournal.com/online/index.php/synexis/issue/current" target="_blank" className="p-2 bg-[#38A169] text-white rounded-md hover:bg-[#4c8969] duration-500 transition-all">Current Issues</a></li>
-            <li><a href="https://synexisjournal.com/online/index.php/synexis/issue/archive" target="_blank" className="p-2 bg-[#38A169] text-white rounded-md hover:bg-[#4c8969] duration-500 transition-all">Archives</a></li>
-            <li><a href="https://synexisjournal.com/online/index.php/synexis/submission" target="_blank" className="p-2 bg-[#38A169] text-white rounded-md hover:bg-[#4c8969] duration-500 transition-all">Submit</a></li>
+    <ul className="list-none md:hidden grid grid-cols-2 gap-6 text-xl py-2 m-5   mx-3 text-center">
+  <li className="col-span-2">
+    <a
+      href="https://synexisjournal.com/online/index.php/synexis/issue/current"
+      target="_blank"
+      className="block w-full p-2 bg-[#38A169] text-white rounded-md hover:bg-[#4c8969] transition duration-500"
+    >
+      Current Issues
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://synexisjournal.com/online/index.php/synexis/issue/archive"
+      target="_blank"
+      className="block w-full p-2 bg-[#38A169] text-white rounded-md hover:bg-[#4c8969] transition duration-500"
+    >
+      Archives
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://synexisjournal.com/online/index.php/synexis/submission"
+      target="_blank"
+      className="block w-full p-2 bg-[#38A169] text-white rounded-md hover:bg-[#4c8969] transition duration-500"
+    >
+      Submit
+    </a>
+  </li>
 </ul>
+
 {/* Mobile menu button */}
       <div className="md:hidden flex justify-end p-4">
         <button onClick={toggleMenu} aria-label="Toggle menu">
