@@ -16,10 +16,10 @@ biodiversity, pollution control, and sustainable development" ButtonText="Browse
     that drives meaningful <span className='font-semibold text-white'>impact</span>.
   </p>
   <ul className='mt-6 grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm md:text-base text-center text-[#A0AEC0]'>
-    <li className='bg-[#2365ffaa] rounded-lg py-3 px-4 font-semibold text-white'>Innovation</li>
-    <li className='bg-[#00ff9daa] rounded-lg py-3 px-4 font-semibold text-white'>Collaboration</li>
-    <li className='bg-[#b08cffaa] rounded-lg py-3 px-4 font-semibold text-white'>Rigor</li>
-    <li className='bg-[#FF57EDaa] rounded-lg py-3 px-4 font-semibold text-white'>Impact</li>
+    <li className='bg-[#2365ffaa] rounded-lg py-3 px-2 md:text-base text-sm font-semibold text-white'>Innovation</li>
+    <li className='bg-[#00ff9daa] rounded-lg py-3 px-2 md:text-base text-sm font-semibold text-white'>Collaboration</li>
+    <li className='bg-[#b08cffaa] rounded-lg py-3 px-2 md:text-base text-sm font-semibold text-white'>Rigor</li>
+    <li className='bg-[#FF57EDaa] rounded-lg py-3 px-2 md:text-base text-sm font-semibold text-white'>Impact</li>
   </ul>
 </div>
   
