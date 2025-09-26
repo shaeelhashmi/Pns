@@ -1,4 +1,14 @@
 {
+    "Yasar Ayaz":{
+    "subname": "Chief Editor (Artificial Intelligence)",
+    "Education":"National University of Sciences and Technology (NUST), Pakistan",
+    "awards": "Dr. Yasar Ayaz, Pride of Performance",
+    "description":"Prof. Yasar Ayaz is Founding Chairman and Central Project Director of Pakistan’s National Center of Artificial Intelligence (NCAI) at NUST, where he also established the country’s first Department of Robotics & AI in 2010. A Full Professor at NUST, he holds adjunct positions in Japan and China, has authored over 150 publications, and holds multiple design patents. He has delivered 80+ invited/keynote talks worldwide and led projects worth 2.5 billion PKR. His many honors include IEEE Lifetime Achievement, PEC Engineers’ Excellence, and the Presidential Award for Pride of Performance (2021) for his contributions to AI and robotics. ",
+    "email": "prof.yasar.ayaz@gmail.com ",
+    "image":"./yasir.jpg"
+
+    
+  },
   "Masroor Ikram": {
     "subname": "Editor in Chief",
     "Education":"Pakistan Institute of Engineering and Applied Sciences (PIEAS), Pakistan",
@@ -39,4 +49,5 @@
     "email": "shahab.khshnood@synexjournal.com",
     "image": "/ShahabKhushnood.png"
   }
+
 }
