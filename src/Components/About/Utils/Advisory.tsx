@@ -4,7 +4,7 @@ export default function Advisory() {
     { img: './masroor.png', Name: 'Masroor Ikram', Title: 'Editor-in-Chief (Physics)', Affiliation: 'Pakistan Institute of Engineering and Applied Sciences (PIEAS), Pakistan' },
     { img: './SohailHameed.png', Name: 'Sohail Hameed', Title: 'Chief Editor (Biosciences)', Affiliation: 'NIBGE-PIEAS, Pakistan' },
     { img: './JavedAkhtar.png', Name: 'Javed Akhtar', Title: 'Chief Editor (Chemistry, Materials Sciences)', Affiliation: 'Pakistan Academy of Sciences, Pakistan' },
-    { img: './ShahabKhushnood.png', Name: 'Shahab Khushnood', Title: 'Chief Editor (Engineering)', Affiliation: 'University of Wah, Pakistan' },
+    { img: './Picture1.png', Name: 'Dr. Muzaffar Ali', Title: 'Chief Editor (Engineering)', Affiliation: 'UET Taxila, Pakistan' },
     { img: './MuhammadNasirKhan.png', Name: 'Muhammad Nasir Khan', Title: 'Section Editor (Mathematics)', Affiliation: 'International Islamic University, Islamabad, Pakistan' },
     {img:'./yasir.jpg', Name: 'Yasar Ayaz', Title: 'Chief Editor (Artificial Intelligence)', Affiliation: 'National University of Sciences and Technology (NUST), Pakistan' }
   ]
